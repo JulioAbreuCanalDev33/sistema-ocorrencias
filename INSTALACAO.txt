@@ -1,0 +1,50 @@
+SISTEMA DE OCORRÊNCIAS VEICULARES
+=====================================
+
+INSTRUÇÕES DE INSTALAÇÃO RÁPIDA
+================================
+
+1. EXTRAIR ARQUIVOS
+   - Extraia o arquivo sistema-ocorrencias.zip
+   - Faça upload para seu servidor web
+
+2. CONFIGURAR PERMISSÕES
+   chmod -R 755 sistema-ocorrencias/
+   chmod -R 777 sistema-ocorrencias/storage/
+   chmod -R 777 sistema-ocorrencias/bootstrap/cache/
+
+3. INSTALAR DEPENDÊNCIAS (se necessário)
+   composer install --no-dev --optimize-autoloader
+   npm install && npm run build
+
+4. CONFIGURAR BANCO DE DADOS
+   - Edite o arquivo .env
+   - Configure as credenciais do banco MySQL
+   - Execute: php artisan migrate
+   - Execute: php artisan db:seed --class=AdminUserSeeder
+
+5. ACESSAR O SISTEMA
+   - URL: http://seudominio.com/sistema-ocorrencias
+   - Admin: admin@sistema.com / admin123
+   - Usuário: usuario@sistema.com / usuario123
+
+REQUISITOS DO SERVIDOR
+======================
+- PHP 8.1+
+- MySQL 5.7+ ou SQLite
+- Extensões: mbstring, xml, curl, zip, gd, sqlite3
+- Composer (para instalação)
+
+FUNCIONALIDADES
+===============
+✓ Login de Admin e Usuário Normal
+✓ Gestão de Clientes, Agentes, Atendimentos
+✓ Ocorrências e Vigilância Veicular
+✓ Relatórios em PDF e Excel
+✓ Interface Azul e Branco Responsiva
+✓ Validação e Tratamento de Campos
+
+SUPORTE
+=======
+Verifique o arquivo README.md para instruções detalhadas.
+
