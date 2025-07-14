@@ -12,6 +12,7 @@ class AtendimentoController extends Controller
     public function index()
     {
         //
+        echo "Estamos aqui! Listagem de atendimentos";
     }
 
     /**
@@ -20,6 +21,7 @@ class AtendimentoController extends Controller
     public function create()
     {
         //
+        echo "estamos aqui!";
     }
 
     /**

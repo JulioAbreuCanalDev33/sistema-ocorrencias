@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-8">
-                            <h4 class="text-primary mb-3">Bem-vindo, {{ Auth::user()->name }}!</h4>
+                            <h4 class="text-primary mb-3">Bem-vindo Julio, {{ Auth::user()->name }}!</h4>
                             <p class="lead">
                                 @if(Auth::user()->isAdmin())
                                     Você está logado como <strong>Administrador</strong> e tem acesso completo ao sistema.
