@@ -186,10 +186,11 @@ Para dúvidas ou problemas:
 1. Verifique os logs em `storage/logs/laravel.log`
 2. Confirme se todas as dependências estão instaladas
 3. Verifique as permissões de arquivos e pastas
+4. Entre em contato por e-mail 'canaldev33@gmail.com'
 
 ## 📝 Licença
 
-Este sistema foi desenvolvido especificamente para gerenciamento de ocorrências veiculares.
+Este sistema foi desenvolvido por Julio Abreu, especificamente para gerenciamento de ocorrências veiculares.
 
 ---
 
