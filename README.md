@@ -10,7 +10,7 @@
 
 # Sistema de Ocorrências Veiculares
 
-Sistema completo desenvolvido em PHP Laravel para gerenciamento de ocorrências veiculares, com autenticação de usuários, interface azul e branco, e funcionalidades de exportação em PDF e Excel.
+Sistema de monitoramento desenvolvido em PHP Laravel para gerenciamento de ocorrências patrimoniais, rastreamento e veiculares, com autenticação de usuários, interface azul e branco, e funcionalidades de exportação em PDF e Excel.
 
 ## 🚀 Características
 
