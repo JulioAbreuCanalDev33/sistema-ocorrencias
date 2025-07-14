@@ -192,7 +192,7 @@ Para dúvidas ou problemas:
 
 Este sistema foi desenvolvido por Julio Abreu, especificamente para gerenciamento de ocorrências veiculares.
 
----
+--- ---
 
 **Desenvolvido com ❤️ usando Laravel**
 
